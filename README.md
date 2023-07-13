@@ -7,5 +7,6 @@ muduo网络库学习过程，实现HTTPServer
   5、实现OneLoop pre Thread+ThreadPool模型的echo服务器；
   6、重写muduo网络库(未加入日志和定时器)，实现的HTTPServer；
   7、对HTTPServer性能进行优化，使用移动语义等特性；
+  8、加入定时器和日志功能，完成最后的HTTP服务器；
 
 使用：将Address.h中的地址改为本机服务器地址，并使用cmake/make进行编译衔接生成可执行文件webserver；运行./webserver 指定port
